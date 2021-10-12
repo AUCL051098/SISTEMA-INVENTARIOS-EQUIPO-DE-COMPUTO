@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+
+ <meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+
+
+
+<title>Sistema Web: Inventarios de Equipo de Cómputo </title><link rel="stylesheet" type="text/css" href="Acceso.css">
+	
+</head>
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="Administrador" && document.form1.num.value=="admin1234"){window.location="Menu.html"}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+<body>
+
+<div class="container"> 
+ 
+  <header class="header">
+    <h4 class="logo">INGRESA USUARIO Y CONTRASEÑA</h4>
+  </header>
+<br>
+ <section class="intro">
+    <div class="columna">
+      <h3>Bienvenido</h3>
+      <img src= "Uno.jpg"   alt="" class="profile"> </div>
+
+    <form name="form1">
+<p class="tra"><input type="text" name="txt"> <br></p>
+<p class="usu">Usuario </p>		
+<p class="con"><input type="text" class="prueba" name="num"> <br></p>
+<p class="rio">Contraseña </p>
+  </section>
+<h4><br>  </h4>
+
+<footer id="contact">
+
+   <br> <p class="hero_header">PRESIONA PARA INGRESAR</p>
+
+
+<p class="prueba"><input type="button"  class="button" value="INGRESAR" onclick="usrpas()"></p>
+ 
+
+  </footer>
+
+<h4></h4>
+	
+  <div class="copyright"><strong>MPC S.A. de C.V</strong>
+  </div>
+</div>
+</body>
+</html>

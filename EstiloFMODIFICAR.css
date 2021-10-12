@@ -1,0 +1,274 @@
+
+	html{
+		
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	
+		font-size:14px;
+		font-style:italic;
+		color:white;
+		
+	}
+	
+	body{	
+		background-color: #1E2425;
+		}
+	
+	header{
+	
+	border-radius:20px;
+	background-color: rgba(1,85,141,0.46);
+	text-align: center;
+	padding: 20px;
+  
+}	
+
+	
+
+section{
+	
+	text-align:center;
+	
+}
+
+.formulario{
+	text-align:left;
+	border-radius:20px;
+	background-color: rgba(1,85,141,0.46);
+	padding: 20px;
+
+	
+}
+
+h2,h3{
+	text-align:center;
+	
+}
+
+dt {
+	text-align:center;
+	
+}
+
+p{
+	text-align:justify;
+	
+}
+
+
+
+.centrado{
+	
+	text-align:center;
+	
+}
+
+h1 {
+  
+	border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  
+}
+	
+
+fieldset{border-radius: 8px;}
+
+
+input[type=text]{
+	
+	width: 38.5%;
+	padding: 8px 20px;
+	margin: 8px 0;
+	box-sizing:border-box;
+	border:2px solid white;
+	border-radius: 4px;
+	
+}
+
+input[type=emp]{
+	
+	width: 40.5%;
+	padding: 8px 20px;
+	margin: 8px 0;
+	box-sizing:border-box;
+	border:2px solid white;
+	border-radius: 4px;
+}
+input[type=radio]{
+	
+	width: auto;
+	padding: 0;
+	margin: 0;
+
+	
+}
+
+input[type=number]{
+	
+	width: 20%;
+	padding: 8px 20px;
+	margin: 8px 20px;
+	box-sizing:border-box;
+	border:2px solid white;
+	border-radius: 4px;
+}
+
+select{
+	
+	width: 41%;
+	padding: 8px 20px;
+	border:none;
+	border-radius:4px;
+	background-color:#f1f1f1;
+	
+	
+	
+}
+
+for guia{
+	
+	width: ;
+	padding: 17px 20px;
+	border:none;
+	border-radius:4px;
+	background-color:#f1f1f1;
+}
+
+button{
+	
+	background-color:#F1F1F1;
+	border:none;
+	color:black;
+	padding:13px 32px;
+	text-decoration:none;
+	margin:4px 2px;
+	cursor:pointer;
+	width: 100%;
+	border-radius:12px;
+	transition-duration:0.4s;
+	
+}
+button:hover{
+	
+	background-color:#758595;
+	border:1px solid  white;
+	color:white;
+}
+
+textarea{
+	width: 100%;
+	height:150px;
+	padding: 12px 20px;
+	box-sizing:border-box;
+	border:2px solid #ccc;
+	border-radius:6px;
+	background-color:#f8f8f8;
+	font-size:16px;
+	resize:none;
+	
+	
+}
+
+
+
+
+.prueba {
+	
+	text-align:center;
+
+	color:white;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{	
+text-decoration:none;
+border-bottom:1px solid;
+background:#1E2425;
+}
+
+aside{
+	text-align: center;
+	
+}
+
+footer {
+	border-radius:20px;
+  background-color:rgba(1,85,141,0.46);
+  color:white;
+  text-align:center;
+  padding: 10px;
+  
+	
+}
+p .prueba{
+	
+	text-align:center;
+}
+
+
+
+nav{
+	
+	margin-top:2em !important;
+	text-align: center;
+	
+}
+
+.menu{
+	
+	border-radius:20px;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width:auto;
+	background-color: rgba(1,85,141,0.46);
+	border:1px solid #778899;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	
+	
+}
+
+li a{
+	
+	float:left;
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:15px 50px;
+	text-decoration:none;
+	border:none;
+	margin-right: 10px;
+	
+	
+}
+	li a:hover{
+	border:1px solid rgba(1,85,141,0.46);
+	background-color:#758595;
+	color:white;
+	border-radius: 20px;
+
+	
+}
+ul{
+	list-style: none;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	display: inline-block;
+ 
+}
+li{
+	
+	width:auto;
+	text-align: center;
+	margin:0px;
+	padding:5px 10px;
+	display: block;
+	float:  left;
+
+
+}	

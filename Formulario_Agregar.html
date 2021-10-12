@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-with, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+<link rel="stylesheet" href="EstiloFAGREGAR.css">
+<title> Sistema Web: Agregar  </title>
+</head>
+<body >
+
+<header>
+
+	<h1 ><em> FORMULARIO PARA AGREGAR EQUIPO NUEVO</em> </h1><br>
+
+</header>
+
+<br>
+<nav >
+      <ul class="menu">
+
+     <li> <a href="Menu.html" >Regresar</li></a>	   
+       <li>  <a href="Acceso.html" > Salir</li></a>
+        
+       
+
+      </ul>
+ 
+    </nav>
+    <br><br>
+
+<section class="formulario">
+
+
+	<form>
+	<fieldset>
+	<legend>Datos del Equipo de Computo</legend>
+	<label for="fname">Marca: </label>
+	<input type="text" id="fname" name= "fname">
+			
+	<label for="lname">Modelo: </label>
+	<input type="text" id="lname" name= "lname"><br><br>
+
+	<br>
+	<label for="phone">Numero de Serie: 	 </label>
+	<input type="emp" id="phone" name= "phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+	<label for="phone">Numero de  Monitores: 	 </label>
+	<input type="emp" id="phone" name= "phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+	
+
+	
+	<br>
+	<label for="permiso">Cuenta con teclado</label>
+	<select id="permiso" name="permiso">
+		<option value=""></option>
+		<option value="estandar">Si</option>
+		<option value="adminformacion">No</option>
+	<br>
+
+
+	</select>
+
+	<label for="permiso">Cuenta con Mouse</label>
+	<select id="permiso" name="permiso">
+		<option value=""></option>
+		<option value="estandar">Si</option>
+		<option value="adminformacion">No</option>
+	<br>
+
+
+	</select>
+	</fieldset><br>
+	
+	
+	
+	<fieldset>
+			<legend>Observaciones adicionales</legend>
+	<textarea name="message" rows="10" cols="169">
+	Escriba sus comentarios
+	</textarea>
+	
+	</fieldset><br>
+	
+	<button  type="button" onclick="enviar">Agregar Equipo</button>
+	
+	
+	</form>
+	
+</section><br>
+
+<aside>
+
+	
+
+</aside><br>
+	
+<footer>
+	
+	
+	<p class="prueba">Sistema Web<p>
+		<p class="prueba">Inventario de Equipos de Computo<p>
+
+
+
+
+	<h5></h5>
+	<p  class="prueba">MPC S.A. de C.V 	</a> </p>
+</footer>
+
+</body>
+</html>
+
+</html>
